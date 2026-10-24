@@ -7,7 +7,7 @@
 <p align="center">
   <a href="flake.nix"><img src="https://img.shields.io/badge/Nix-flake-5277C3?logo=nixos&logoColor=white" alt="Nix flake" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license" /></a>
-  <a href="https://github.com/immich-app/immich/releases/tag/v3.2.4"><img src="https://img.shields.io/badge/immich-3.2.4-4250af" alt="Immich 3.2.4" /></a>
+  <a href="https://github.com/immich-app/immich/releases/tag/v3.3.5"><img src="https://img.shields.io/badge/immich-3.3.5-4250af" alt="Immich 3.3.5" /></a>
 </p>
 
 [Immich](https://github.com/immich-app/immich) is a self-hosted photo and video backup server.
@@ -56,7 +56,7 @@ The daily [update workflow](.github/workflows/update.yml) runs at 12:00 UTC, res
 ./scripts/update.sh
 ```
 
-Pass a version such as `./scripts/update.sh 3.2.4` to pin a specific release.
+Pass a version such as `./scripts/update.sh 3.3.5` to pin a specific release.
 
 Read the [upstream release notes](https://github.com/immich-app/immich/releases) before a major version bump; breaking database changes need manual steps.
 
